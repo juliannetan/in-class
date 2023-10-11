@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Console Test</title>
+</head>
+<body>
+  <script>
+    function firstNameChanged(){
+        let firstNameInput = document.getElementById("firstNameInput");
+        console.log("First name changed to", firstNameInput.value);
+    }
+  </script>
+  <div id="myDiv">Hello!</div>
+  <input id="firstNameInput" type="text" value="Tony" oninput="firstNameChanged()">
+</body>
+</html>
